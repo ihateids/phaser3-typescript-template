@@ -6,7 +6,7 @@ export default class Demo extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image('logo', 'assets/phaser3-logo.png');
+    this.load.image('logo', 'assets/images/phaser3-logo.png');
   }
 
   create() {
