@@ -10,11 +10,11 @@ export default class Demo extends Phaser.Scene {
   }
 
   create() {
-    const logo = this.add.image(400, 70, 'logo');
+    const logo = this.add.image(896, 200, 'logo');
 
     this.tweens.add({
       targets: logo,
-      y: 350,
+      y: 450,
       duration: 1500,
       ease: 'Sine.inOut',
       yoyo: true,
